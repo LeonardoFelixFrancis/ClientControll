@@ -1,0 +1,123 @@
+.closedfiles {
+  display: none;
+}
+
+.files {
+  border-radius: 10px;
+  width: 800px;
+  height: 400px;
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  overflow-y: scroll;
+  z-index: 3;
+  box-shadow: -5px 5px rgba(0, 0, 0, 0.295);
+  text-align: left;
+}
+
+#overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+.hidden {
+  display: none;
+}
+
+#createClient {
+  position: fixed;
+  bottom: 15px;
+  left: 15px;
+  width: 80px;
+  height: 50px;
+}
+#searchClient {
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  width: 100px;
+  height: 50px;
+}
+
+#delBtn {
+  position: fixed;
+  bottom: 85px;
+  right: 15px;
+  width: 100px;
+  height: 50px;
+}
+
+#openClientBtn {
+  position: fixed;
+  bottom: 85px;
+  left: 15px;
+  width: 80px;
+  height: 50px;
+}
+
+#clientCreateHold {
+  border-radius: 10px;
+  width: 70%;
+  height: 55%;
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  overflow-y: scroll;
+  z-index: 3;
+  box-shadow: -5px 5px rgba(0, 0, 0, 0.295);
+}
+#clientOpenHold {
+  border-radius: 10px;
+  width: 70%;
+  height: 50%;
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  overflow-y: scroll;
+  z-index: 3;
+  box-shadow: -5px 5px rgba(0, 0, 0, 0.295);
+}
+
+#clientSearchHold {
+  border-radius: 10px;
+  width: 70%;
+  height: 52%;
+  padding: 10px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(255, 255, 255);
+  overflow-y: scroll;
+  z-index: 3;
+  box-shadow: -5px 5px rgba(0, 0, 0, 0.295);
+}
+
+#showTable {
+  white-space: nowrap;
+  text-align: center;
+}
+
+.clientSelected {
+  background-color: rgba(0, 132, 255, 0.527) !important;
+}
+
+input {
+  background-color: green;
+}
